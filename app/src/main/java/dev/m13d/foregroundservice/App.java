@@ -23,7 +23,10 @@ public class App extends Application {
                     NotificationManager.IMPORTANCE_DEFAULT
             );
 
-            
+            NotificationManager manager = getSystemService(NotificationManager.class);
+            if (manager != null) {
+                manager.createNotificationChannel(serviceChannel);
+            }
         }
     }
 }
