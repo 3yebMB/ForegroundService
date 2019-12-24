@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ForegroundService</string>
+<!--    <string name="app_name">ForegroundService</string>-->
+    <string name="app_name">Ко-ко-ко...</string>
+    <string name="title_service">Псс. человек, не хочешь немного ко..?</string>
 </resources>
